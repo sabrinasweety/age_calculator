@@ -1,0 +1,71 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card styling */
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Header styling */
+header h1 {
+    margin-bottom: 25px;
+    color: #343a40;
+    font-size: 24px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Input styling */
+input[type="date"] {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #495057;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Result text styling */
+#currentAge {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212529;
+}
